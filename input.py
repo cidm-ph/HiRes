@@ -1,6 +1,5 @@
 import os
 import argparse
-import pandas as pd
 import vcf2ciprores as v2cr
 
 

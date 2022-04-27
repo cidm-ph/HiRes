@@ -1,12 +1,7 @@
-from logging import raiseExceptions
-import os
 import datetime
 from io import StringIO
 import pandas as pd
-import numpy as np
 import res_extract as re
-
-
 
 def file_cleanup(file):
     """
@@ -48,7 +43,6 @@ def for_FQ(file):
     if clean_up.empty:
         return clean_up
     return re.extract_res(clean_up)
-    
 
 def for_L(file):
     res_df = pd.DataFrame(file2df(file))
@@ -57,4 +51,3 @@ def for_L(file):
     if clean_up.empty:
         return clean_up
     return re.extract_res(clean_up)
-
