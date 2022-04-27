@@ -7,4 +7,4 @@ Searches for ftsI, gyrA, parE and parC. Genes that are related to β-lactam and 
 |Reference|ftsI|gyrA|parE|parC|
 |---|---|---|---|---|
 |HIB 10810 (FQ312006.1)|HIB_12890|HIB_14190|HIB_16880|HIB_16890|
-|RdKW20|HI_1132|HI_1264|HI_1529|HI_1528|
+|RdKW20 (L42023.1)|HI_1132|HI_1264|HI_1529|HI_1528|
