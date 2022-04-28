@@ -1,5 +1,5 @@
 # HiRes
-
+Haemophilus influenzae Resistance Gene Extraction Tool
 Basic python script to extract regions of interest from VCF files from Snippy (https://github.com/tseemann/snippy)
 
 Searches for ftsI, gyrA, parE and parC. Genes that are related to β-lactam and fluoroquinolone resistance.
