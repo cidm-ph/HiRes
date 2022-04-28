@@ -31,7 +31,7 @@ def reference_split(file):
         return res_df
     if res_df["#CHROM"].iloc[0] == "FQ312006":
         return for_FQ(file)
-    elif res_df["#CHROM"].iloc[0] == "":
+    elif res_df["#CHROM"].iloc[0] == "L42023":
         return for_L(file)
     else:
         raise Exception ("Incompatible Reference")
