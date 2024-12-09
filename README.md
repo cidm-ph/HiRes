@@ -1,11 +1,23 @@
 # HiRes
 Haemophilus influenzae Resistance Gene Extraction Tool
 
-Basic python script to extract regions of interest from VCF files from Snippy (https://github.com/tseemann/snippy)
+Takes reads and assemblies to determine if Haemophilus influenzae is resistant to either betalactams, fluoroquinolones or cephalosporins
 
-Searches for ftsI, gyrA, parE and parC. Genes that are related to β-lactam and fluoroquinolone resistance.
+```
+pertpipe --R1 $PATH/$R1.fq.gz --R2 $PATH/$R2.fq.gz --outdir $OUTDIR
+```
 
-|Reference|ftsI|gyrA|parE|parC|
-|---|---|---|---|---|
-|HIB 10810 (FQ312006.1)|HIB_12890|HIB_14190|HIB_16880|HIB_16890|
-|RdKW20 (L42023.1)|HI_1132|HI_1264|HI_1529|HI_1528|
+FLAGS
+
+```
+--outdir, -o [PATH]             optional folder to write output files to
+--R1 [PATH]                     R1 fastq of sample (can be gzipped files)
+--R2 [PATH]                     R2 fastq of sample (can be gzipped files)
+--fasta, -f [PATH]              optional fasta file which will skip spades.             
+--version, -v                   print version
+```
+
+## Dependencies
+- SPades
+- Snippy
+- Abricate
