@@ -4,7 +4,7 @@ Haemophilus influenzae Resistance Gene Extraction Tool
 Takes reads and assemblies to determine if Haemophilus influenzae is resistant to either betalactams, fluoroquinolones or cephalosporins
 
 ```
-pertpipe --R1 $PATH/$R1.fq.gz --R2 $PATH/$R2.fq.gz --outdir $OUTDIR
+hires --R1 $PATH/$R1.fq.gz --R2 $PATH/$R2.fq.gz --outdir $OUTDIR
 ```
 
 FLAGS
