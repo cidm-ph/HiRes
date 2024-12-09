@@ -1,4 +1,6 @@
-.vscode
 __pycache__
-launch.json
 .DS_Store
+.vs_code
+launch.json
+settings.json
+.pylintrc
