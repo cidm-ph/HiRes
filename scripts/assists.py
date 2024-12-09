@@ -76,7 +76,7 @@ def check_dependencies(cmd_exec):
     elif cmd_exec == 'minimap2':
         version = "v" + result[0]
     elif cmd_exec == 'snippy':
-        version = result[0].replace("prokka ", "v")
+        version = result[0].replace("snippy ", "v")
     if cmd_exec == "samtools":
             version = result[0].replace("samtools ", "")
             if pkg_resources.parse_version(version) < pkg_resources.parse_version(
